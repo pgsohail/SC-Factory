@@ -19,11 +19,11 @@ pub trait CharitySCFactory {
         args.push_arg(&org_name);
 
         let (new_address, _) = self.send_raw().deploy_contract(
-            gas,              // Gas limit
-            &BigUint::zero(), // EGLD value
-            &code,            // WASM bytecode
-            CodeMetadata::DEFAULT, // Code metadata
-            &args             // Arguments
+            gas,        
+            &BigUint::zero(),
+            &code,          
+            CodeMetadata::DEFAULT, 
+            &args            
         );
 
         self.charity_contracts().insert(new_address.clone());
