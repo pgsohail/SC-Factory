@@ -1,0 +1,21 @@
+[package]
+name = "project-sc"
+version = "0.0.0"
+edition = "2021"
+publish = false
+authors = ["you"]
+
+[lib]
+path = "src/project_sc.rs"
+
+[dependencies.multiversx-sc]
+version = "0.57.0"
+
+[dev-dependencies]
+num-bigint = "0.4"
+
+[dev-dependencies.multiversx-sc-scenario]
+version = "0.57.0"
+
+[workspace]
+members = [".", "meta", "interactor"]

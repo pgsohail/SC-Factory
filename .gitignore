@@ -1,0 +1,8 @@
+*/wasm/
+*/multiversx.json
+*/sc-config.toml
+*/tests/
+*/Cargo.lock
+*/output/
+*/scenarios/
+*/target/
