@@ -1,4 +1,4 @@
-# Philanthrify Smart Contract Architecture
+# Philanthrify Architecture
 
 This repo contains smart contracts for Philanthrify, a decentralized donation platform using a factory-template system.
 
