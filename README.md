@@ -31,6 +31,5 @@ There are three main components:
 
 ## Notes
 
-- Only the Charity contract mints NFTs
-- Project contracts enforce access control
+- Only the Charity and Project contracts mints NFTs
 - Factory is only for deploying contracts
