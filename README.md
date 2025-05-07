@@ -28,6 +28,7 @@ There are three main components:
 - Can only receive funds from its parent Charity contract
 - Direct donations will fail
 - Deployed via deployProject from the Charity contract
+- mints an nft and sends to charity contract
 
 ## Notes
 
